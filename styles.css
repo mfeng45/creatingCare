@@ -284,6 +284,14 @@
     width: 100%;
 }
 
+.drop__down {
+    font-size: 1rem;
+    padding: 14px 32px;
+    color: pink;
+    margin-top: 2rem;
+    position: relative;
+}
+
 .main__img--container {
     text-align: center;
 }

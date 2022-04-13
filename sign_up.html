@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Care</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css" />
     <style>@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');</style>
 </head>
@@ -14,7 +14,7 @@
         <!-- Navigation bar -->
         <nav class="navbar">
             <div class="navbar__container">
-                <p id="navbar__logo">CARE</p>
+                <p id="navbar__logo">CCARE</p>
                 <div class="navbar__toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -44,35 +44,37 @@
         <!-- Hero section -->
         <div class="main">
             <div class="main__container">
-        <h1>Join Care.com</h1>
+        <h1>Take these next steps with CreatingCare</h1>
+        
+        
         <!-- Registration form -->
-        <form>
-            <table>
-                <tr>
-                    <td>
-                        Name: 
-                    </td>
-                    <td>
-                        <input type="text" placeholder = "Name" name="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Password: 
-                    </td>
-                    <td>
-                        <input type="Password" placeholder = "Password" name="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="Submit" value="Submit" name="">
-                    </td>
-                </tr>
-            </table>
-        </form>
-            </div>
+        <div class="drop__down" >
+            <br><br>
+            <label for="care">Type of Care:</label>
+            <select class="mySelect">
+            <option value="volvo">Medication</option>
+            <option value="saab">Falling</option>
+            <option value="mercedes">Cleaning</option>
+            <option value="audi">Entertainment</option>
+            </select>
+            
+        <br><br>
+        <td>Age: </td><input class="textbox" type="text" placeholder = "Age">
+        <br><br>
+        <td>Patient Name: </td><input class="textbox" type="text" placeholder = "Last, First">
+        <br><br>
+        <td>Location: </td><input class="textbox" type="text" placeholder = "Address">
+        <br><br>
+        <td>Email: </td><input class="textbox" type="text" placeholder = "Email Address">
+        <br><br>
+        <td>Password: </td><input class="textbox" type="Password" placeholder = "Password">
+        <br><br>
+        <td><input class="main__btn" type="Submit" value="Submit" name=""></td>      
+
         </div>
+
+
+        
 
         <!--Footer section todo: didn't add but can later-->
 
